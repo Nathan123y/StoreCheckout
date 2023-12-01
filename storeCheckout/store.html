@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cashier Checkout</title>
+  <link rel="stylesheet" href="store.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h2>Cashier Checkout</h2>
+    </div>
+
+    <label for="barcode">Scan Product Barcode:</label>
+    <input type="text" id="barcode" placeholder="Scan barcode here">
+
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" value="1">
+
+    <button id="cartButton" type="button">Add to Cart</button>
+
+  <div class="headers">
+    <h3>Item</h3>
+    <h3>Price</h3>
+    <h3>Quantity</h3>
+  </div>
+
+    <div class="total">
+      <div id="cart"></div>
+      <div id="grandTotal">Grand Total: $0.00</div>
+    </div>
+
+    <div class="checkout-button">
+      <button type="button">Checkout</button>
+    </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 300px;
+    margin: auto;
+  }
+  .title {
+    text-align: center;
+    margin: 20px 0;
+  }
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  .headers{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .total {
+    text-align: right;
+    margin-top: 10px;
+  }
+  .checkout-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .items{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
